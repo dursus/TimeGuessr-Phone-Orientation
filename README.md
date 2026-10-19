@@ -25,7 +25,7 @@ When I shared this insight back in April 2026, it was just an intuition without 
 
 ![IMG_050](annotated/IMG_050.jpeg)
 <br>
-_IMG 050 uniquely highlights subject-independence: Despite filming a vertical activity, the dominant phone orientation strongly correlates with the year (2017) and not the subject of the photograph._
+_IMG_050 uniquely highlights subject-independence: Despite filming a vertical activity, the dominant phone orientation, horizontal filming, strongly correlates with the year (2017) and not the subject of the photograph._
 
 ---
 
