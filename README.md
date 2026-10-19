@@ -5,7 +5,7 @@
 ![Tableau](https://img.shields.io/badge/Tableau-Data_Viz-orange?style=flat-square&logo=tableau)
 ![Statistics](https://img.shields.io/badge/Chi--Square-Statistically_Significant-purple?style=flat-square)
 
-> *Using 151 manually-cataloged TimeGuessr images, Exploratory Data Analysis in Tableau, and a chi-square test to empirically prove when the world switched from filming horizontally to filming vertically.*
+> *This analysis includes 151 manually-cataloged TimeGuessr images, Exploratory Data Analysis in Tableau, and a chi-square test to empirically prove when the world switched from filming horizontally to filming vertically. This is the introduction to a much larger data story about the global shift from desktop to mobile.*
 
 ![Timeguessr Logo](readme_png_refs/timeguessrthumbnail.png)
 
@@ -38,7 +38,7 @@ _IMG_050 (Jakarta, Indonesia) uniquely highlights subject-independence: Despite 
 
 1. **Data Collection:**
 
-Custom dataset built in Google Sheets. 151 images were sourced from the 'random mode' in Timeguessr as well as past daily games archived and catalogued by TimeGuessr players on YouTube and Twitch.
+Custom dataset built in Google Sheets. 151 images were sourced using the 'random mode' in Timeguessr (which pulls from the entire TimeGuessr daily archive containing 6,000 photographs) as sourcing from all daily game rounds in 2026 (archived and catalogued by daily TimeGuessr players on YouTube and Twitch).
 
 ![TimeGuessr Photo Locations Map](readme_png_refs/TimeGuessr_Photo_Locations.png)
 <br>
@@ -53,6 +53,7 @@ _Each dot on the map represents an image that was catalogued and annotated in th
      * **The person must be in the act of taking a picture.** There are clear indicators someone is taking a picture: the phone is raised over the head, or there's a two-handed grip framing the phone, or the phone lens is angled towards a clear subject. If it was unclear whether a person was taking a picture or simply looking at their phone screen, it was marked with a white bounding-box.
      * **The phone must be oriented in a clear direction.** If a person's phone was angled at 45° or in the middle of orienting motion, then it was not counted and marked with a white bounding-box.
 
+Only 🔵 Blue and 🟠 Coral marked phones were used in the calculations, graphs, and statistical analysis. 
 
 2. **Data Cleaning:**
   * *Pre-2012 Photographs:* Prior to 2012, the dominant picture-taking device is not a phone but a digital camera. Although I found some valid TimeGuessr photographs from 2006 to 2012, there were too few photos, often with only one person and one phone representing the entire year. This created skewed outliers for those years, so the analysis was narrowed to post-2012, the year phones started to surpass digital cameras and became the dominant picture-taking device.
@@ -85,7 +86,13 @@ However, this creates the classic Electoral College problem where a picture with
 <br>
 _Proportional count graph with median instead of the mean._
 
-With a clear crossover point around 2019/2020, I ran a chi-square analysis to find the statistical difference between horizontal and vertical phones, pre/post-2019.
+There is a clear crossover point around 2019/2020. That inflection point is significant because 2019 marks the mainstream popularity of TikTok and the widespread adoption of vertical mobile-first photo and video sharing platforms. This year tied back to the TimeGuessr infographic I shared back in April 2026.
+
+![TimeGuessr 2000-2025 Infographic](readme_png_refs/Proportional_Count_Median.png)
+<br>
+_Proportional count graph with median instead of the mean._
+
+I ran a chi-square analysis to find the statistical difference between horizontal and vertical phones, pre/post-2019.
 
 | Era | Horizontal Phones | Vertical Phones | **Row Total** |
 | :--- | :---: | :---: | :---: |
