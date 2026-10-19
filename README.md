@@ -121,7 +121,9 @@ With a chi-square value of 182.74 and a $p$ value < 0.0001, we can conclude that
 
 The conclusions of this report serve as Part I of a much larger data story about "How Mobile Won the Battle of the Screens." My next steps are to analyze another concurrent shift during 2012-2026: YouTube to TikTok, the structured horizontal grid to the infinite vertical scroll, the shift from desktop-first mentality to mobile-first mentality. 
 
-It was also satisfying to develop a more statistically rigorous method of finding trends in TimeGuessr. Although, marking 151 photos took a long time to do manually. As part of a longer-term project, I'd like to learn how to automate the collection, annotation, counting, and statistical analysis of various other trends (e.g., Merry Widow hat of 1907-1914, post-WWI disappearance of men's mustaches, adoption rate of skinny jeans among men vs women in the 2010s). I will save this for a future date.
+It was also satisfying to develop a more statistically rigorous method of finding trends in TimeGuessr. Although, a clear downside is that marking 151 photos takes a long time to do manually. As part of a longer-term project, I'd like to learn how to automate the photo collection, annotation, counting, and statistical analysis of various other trends (e.g., Merry Widow hat of 1907-1914, post-WWI disappearance of men's mustaches, adoption rate of skinny jeans among men vs women in the 2010s). I will save this for a future date.
+
+
 ---
 
 ## Files
