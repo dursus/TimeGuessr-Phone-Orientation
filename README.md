@@ -97,10 +97,16 @@ $$
 \chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}
 $$
 
-* **Pre-2019 Horizontal Chi-Square Stat ($\chi^2_{11}$):** $\frac{(O-E)^2}{E} = 287.168$
-* **Pre-2019 Vertical Expected ($E_{12}$):** $\frac{(\text{Total Pre}) \times (\text{Total Vertical})}{\text{Grand Total}} = 358.832$
-* **Post-2019 Horizontal Expected ($E_{21}$):** $\frac{(\text{Total Post}) \times (\text{Total Horizontal})}{\text{Grand Total}} = 269.832$
-* **Post-2019 Vertical Expected ($E_{22}$):** $\frac{(\text{Total Post}) \times (\text{Total Vertical})}{\text{Grand Total}} = 337.168$
+* **Pre-2019 Horizontal Chi-Square Stat ($\chi^2_{11}$):** $\frac{(406-287.168)^2}{287.168} = 49.173$
+* **Pre-2019 Vertical Chi-Square Stat ($\chi^2_{12}$):** $\frac{(240-358.832)^2}{358.832} = 39.353$
+* **Post-2019 Horizontal Chi-Square Stat ($\chi^2_{21}$):** $\frac{(151-269.832)^2}{269.832} = 52.333$
+* **Post-2019 Vertical Chi-Square Stat ($\chi^2_{22}$):** $\frac{(456-337.168)^2}{337.168} = 41.881$
+
+$$
+\chi^2 = 182.74
+$$
+
+Degrees of Freedom ($df = 1$) | $\alpha = 0.05$ | Critical Threshold = 3.841 | $p<0.001$
 
 
 
