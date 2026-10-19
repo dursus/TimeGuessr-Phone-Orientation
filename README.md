@@ -134,5 +134,5 @@ It was also satisfying to develop a more statistically rigorous method of findin
 * **`readme_png_refs/`**: Tableau results map and graphs.
 
 ---
-## 👤 Author
+## Author
 Created by **David Boucard** — feel free to reach out or connect on [LinkedIn](https://www.linkedin.com/in/david-boucard-19318246/)!
