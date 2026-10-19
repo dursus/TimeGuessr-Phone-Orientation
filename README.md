@@ -88,7 +88,7 @@ Expected frequency formula:
 
 $$E = \frac{(\text{Row Total}) \times (\text{Column Total})}{\text{Grand Total}}$$
 
-* **Pre-2019 Horizontal Expected ($E_{11}$):** $\frac{(\text{Total Pre}) \times (\text{Total Horizontal})}{\text{Grand Total}}$
+* **Pre-2019 Horizontal Expected ($E_{11}$):** $\frac{(\text{Total Pre}) \times (\text{Total Horizontal})}{\text{Grand Total}} = 485$
 * **Pre-2019 Vertical Expected ($E_{12}$):** $\frac{(\text{Total Pre}) \times (\text{Total Vertical})}{\text{Grand Total}}$
 * **Post-2019 Horizontal Expected ($E_{21}$):** $\frac{(\text{Total Post}) \times (\text{Total Horizontal})}{\text{Grand Total}}$
 * **Post-2019 Vertical Expected ($E_{22}$):** $\frac{(\text{Total Post}) \times (\text{Total Vertical})}{\text{Grand Total}}$
