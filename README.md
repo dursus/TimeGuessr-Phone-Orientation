@@ -37,7 +37,7 @@ Custom dataset built in Google Sheets. 151 images were sourced from the 'random 
 
 ![TimeGuessr Photo Locations Map](readme_png_refs/TimeGuessr_Photo_Locations.png)
 <br>
-_Each dot on the map represents an image._
+_Each dot on the map represents an image that was catalogued and annotated in the dataset._
 
    * Built a custom **Python/OpenCV script** (`annotate_photos.py`) to manually catalog and draw color-coded bounding boxes on devices:
      * 🔵 **Blue:** Horizontal / Landscape
