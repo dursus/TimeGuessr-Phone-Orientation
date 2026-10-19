@@ -76,15 +76,23 @@ However, this creates the classic Electoral College problem where a picture with
 <br>
 _Proportional count graph with median instead of the mean._
 
-With a clear crossover point around 2019, I ran a chi-square analysis to find the statistical difference between horizontal and vertical phones, pre and post 2019.
+With a clear crossover point around 2019/2020, I ran a chi-square analysis to find the statistical difference between horizontal and vertical phones, pre/post-2019.
+
+| Era | Horizontal Phones | Vertical Phones | **Row Total** |
+| :--- | :---: | :---: | :---: |
+| **Pre-2019 (2012–2019)** | *Count A* | *Count B* | **Total Pre** |
+| **Post-2019 (2020–2026)** | *Count C* | *Count D* | **Total Post** |
+| **Column Total** | **Total Horizontal** | **Total Vertical** | **Grand Total ($N$)** |
 
 $$
-\sum_{i=1}^{n} x_i = x_1 + x_2 + \cdots + x_n
+\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}
 $$
+
+
 
 ---
 
-## Results
+## Conclusions & Future Developments
 
 
 
