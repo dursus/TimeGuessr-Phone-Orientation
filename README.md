@@ -53,7 +53,7 @@ Custom dataset built in Google Sheets. 151 images were sourced from the 'random 
 _IMG_134 (Lhasa, Tibet, China) is the earliest dated photograph in the dataset._
 
 3. **Data Analysis:**
-   * *The Electoral College Problem:* Each year contains a wide range of photographs. Some have one or two phones while others have 30+. How do you balance giving each country and location equal weight to truly capture the global big picture trend while also being careful not to skew the data in favor of photographs with one or two people?
+   * *The Electoral College Problem:* Each year contains a wide range of photographs. Some have one or two phones while others have 30+. How do you balance giving each country and location equal weight to truly capture the global big picture trend when each photograph has a different population/number of people?
 
 ![IMG_037](annotated/IMG_037.jpeg)
 <br>
