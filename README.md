@@ -1,5 +1,10 @@
 # Landscape to Portrait Orientation Shift: A TimeGuessr Analysis (2012–2026)
 
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python)
+![OpenCV](https://img.shields.io/badge/OpenCV-Annotation_Tool-green?style=flat-square&logo=opencv)
+![Tableau](https://img.shields.io/badge/Tableau-Data_Viz-orange?style=flat-square&logo=tableau)
+![Statistics](https://img.shields.io/badge/Chi--Square-Statistically_Significant-purple?style=flat-square)
+
 > *Using 151 manually-cataloged TimeGuessr images, Exploratory Data Analysis in Tableau, and a chi-square test to empirically prove when the world switched from filming horizontally to filming vertically.*
 
 ![Timeguessr Logo](readme_png_refs/timeguessrthumbnail.png)
