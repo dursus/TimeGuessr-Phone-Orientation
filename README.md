@@ -11,6 +11,8 @@ I'm a huge fan of the game. Over the course of 3+ years of daily play, I built i
 
 This analysis focuses on one of those intuitions: In the 2010s, the dominant phone orientation when taking a picture is horizontal. In the 2020s, this reverses and the dominant phone orientation is vertical.
 
+$${\color{#FF9933} This \space text \space will \space be \space orange}$$
+
 When I shared this insight with the TimeGuessr community back in April 2026, it was just an intuition without proof. This project finally turns that observation into a **statistically-validated data story**. By sampling 151 random Timeguessr photos from 78 different countries and territories over a 20-year timespan, then bounding-box annotating 1,525 people, I can now cite real data to back up my intuitions.
 
 ---
