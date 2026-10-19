@@ -74,7 +74,7 @@ _IMG_037 (Sanandaj, Iran) contains 41 horizontal and 8 vertical This single loca
 <br>
 _Raw phone count shows that horizontal count is consistently above vertical through the 2010s and the reverse is true during the 2020s. However, the total counts for each year are skewed by large crowds._
 
-To correct the effect of large crowds, I normalized each photograph by assigning each a proportional calculation (e.g., 41 horizontal and 8 vertical calculates to a score of 0.84 for horizontal and 0.16 for vertical) and then averaging the photographs for each year and using Tableau's moving average to smooth the line graph.
+To correct the effect of large crowds, I normalized each photograph by assigning each a proportional calculation (e.g., 41 horizontal and 8 vertical calculates to a score of 0.84 for horizontal and 0.16 for vertical) and then averaging photograph proportion grouped by each year and using Tableau's moving average to smooth the line graph.
 
 ![Proportional Mean Chart](readme_png_refs/Proportional_Count.png)
 <br>
