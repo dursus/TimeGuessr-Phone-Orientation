@@ -80,9 +80,9 @@ With a clear crossover point around 2019/2020, I ran a chi-square analysis to fi
 
 | Era | Horizontal Phones | Vertical Phones | **Row Total** |
 | :--- | :---: | :---: | :---: |
-| **Pre-2019 (2012–2019)** | *Count A* | *Count B* | **Total Pre** |
-| **Post-2019 (2020–2026)** | *Count C* | *Count D* | **Total Post** |
-| **Column Total** | **Total Horizontal** | **Total Vertical** | **Grand Total ($N$)** |
+| **Pre-2019 (2012–2019)** | 406 | 240 | **646** |
+| **Post-2019 (2020–2026)** | 151 | 456 | **607** |
+| **Column Total** | **557** | **696** | **Grand Total ($N=1253$)** |
 
 $$
 \chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}
