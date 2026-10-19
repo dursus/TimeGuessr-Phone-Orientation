@@ -20,7 +20,7 @@ When I shared this insight back in April 2026, it was just an intuition without 
 
 ## Key Findings & Insights
 * **The 2019/2020 Crossover:** The graph of the raw count and the proportional count show a clear crossover around **2019–2020**, where vertical phone orientation officially overtook horizontal orientation.
-* **Global Consistency:** This shift is culturally independent and observable in major metropolitan areas around the world: North America, Europe, Asia, Africa, and South America.
+* **Global Consistency:** This shift is culturally independent and observable in major metropolitan areas around the world: Asia, Africa, Europe, North America, South America, and Oceania.
 * **Subject Independent:** Phone orientation is largely independent of the subject of the photograph. The most common subject of many TimeGuessr photographs in both the 2010s and 2020s is a parade, festival, or procession, yet the correlation between year and orientation persist. In certain highlighted cases (IMG_050), the orientation strongly correlates with the year and not the subject of the photograph. 
 
 ---
