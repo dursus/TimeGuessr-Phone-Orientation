@@ -2,7 +2,7 @@
 
 > *Using 151 manually cataloged TimeGuessr images and a chi-square test to empirically prove when the world switched from filming horizontally to filming vertically.*
 
-![Timeguessr Logo](readme_png_refs/timguessrthumnail.png)
+![Timeguessr Logo](readme_png_refs/timguessrthumbnail.png)
 
 ## Project Overview
 TimeGuessr is an online game where you look at historical photographs and try to pinpoint both the exact year and the geographic location on a map where each photo was taken.
