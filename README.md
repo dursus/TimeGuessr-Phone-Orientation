@@ -64,7 +64,7 @@ _IMG_037 (Sanandaj, Iran) contains 41 horizontal and 8 vertical This single loca
 <br>
 _Raw phone count shows that horizontal count is consistently above vertical through the 2010s and the reverse is true during the 2020s. However, the total counts for each year are skewed by large crowds._
 
-To correct the effect of large crowds, I normalized each photograph by assigning each a proportional calculation (e.g., 41 horizontal and 8 vertical calculates to a score of 0.84 for horizontal and 0.16 for vertical) and then averaging the photographs in each year.
+To correct the effect of large crowds, I normalized each photograph by assigning each a proportional calculation (e.g., 41 horizontal and 8 vertical calculates to a score of 0.84 for horizontal and 0.16 for vertical) and then averaging the photographs for each year.
 
 ![IMG_037](readme_png_refs/Proportional_Count.png)
 <br>
@@ -72,19 +72,27 @@ _Proportional count graph._
 
 However, this creates the classic Electoral College problem where a picture with 2 people carries as much weight as a picture with 40. Unlike the tricky problem of representational politics, this problem had a simple solution: find the central value least affected by either outlier, i.e., the median.
 
-![IMG_037](readme_png_refs/Proportional_Count.png)
+![IMG_037](readme_png_refs/Proportional_Count_Median.png)
 <br>
 _Proportional count graph with median instead of the mean._
+
+With a clear crossover point around 2019, I ran a chi-square analysis to find the statistical difference between horizontal and vertical phones, pre and post 2019.
+
+$$
+\sum_{i=1}^{n} x_i = x_1 + x_2 + \cdots + x_n
+$$
 
 ---
 
 ## Results
 
+
+
 ---
 
 ## Files
 
-* **`Phone Orientation Dataset - Photos.csv`**: Contains the cleaned 151 photograph dataset with years, locations, latitude, longitude, counts, photo description, and source.
+* **`phone_orientation_dataset.csv`**: Contains the cleaned 151 photograph dataset with years, locations, latitude, longitude, counts, photo description, and source.
 * **`annotate_photos.py`**: Interactive OpenCV annotation tool used to manually process image assets.
 * **`annotated/`**: High-resolution previews and bounding-box markups of all 151 photographs.
 * **`readme_png_refs/`**: Tableau results map and graphs.
