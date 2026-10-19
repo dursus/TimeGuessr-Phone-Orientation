@@ -1,6 +1,6 @@
 # Landscape to Portrait Orientation Shift: A TimeGuessr Analysis (2012–2026)
 
-> *Using 151 manually cataloged TimeGuessr images, Tableau Exploratory Data Analysis, and a chi-square test to empirically prove when the world switched from filming horizontally to filming vertically.*
+> *Using 151 manually cataloged TimeGuessr images, Exploratory Data Analysis in Tableau, and a chi-square test to empirically prove when the world switched from filming horizontally to filming vertically.*
 
 ![Timeguessr Logo](readme_png_refs/timguessrthumbnail.png)
 
