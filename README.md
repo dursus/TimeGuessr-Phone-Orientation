@@ -149,4 +149,4 @@ It was also satisfying to develop a more statistically rigorous method of findin
 
 ---
 ## Author
-Created by **David Boucard** — feel free to reach out or connect on [LinkedIn](https://www.linkedin.com/in/david-boucard-19318246/)!
+Created by **David Boucard**. Feel free to reach out or connect on [LinkedIn](https://www.linkedin.com/in/david-boucard-19318246/)!
