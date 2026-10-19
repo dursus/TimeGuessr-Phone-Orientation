@@ -137,7 +137,8 @@ It was also satisfying to develop a more statistically rigorous method of findin
 * **`annotate_photos.py`**: Interactive OpenCV annotation tool used to manually process image assets.
 * **`annotated/`**: High-resolution previews and bounding-box markups of all 151 photographs.
 * **`readme_png_refs/`**: Tableau results map and graphs.
-* [![View Dashboard on Tableau Public](https://img.shields.io/badge/Tableau-Public_Dashboard-orange?style=for-the-badge&logo=tableau)](https://public.tableau.com/views/TimeGuessrEDA/ProportionalMedian?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+[![View Dashboard on Tableau Public](https://img.shields.io/badge/Tableau-Public_Dashboard-orange?style=for-the-badge&logo=tableau)](https://public.tableau.com/views/TimeGuessrEDA/ProportionalMedian?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 ## Author
