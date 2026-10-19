@@ -19,7 +19,7 @@ This analysis focuses on one of those intuitions I shared with the TimeGuessr co
 > [!TIP]
 > In the 2010s, the dominant phone orientation when taking a picture is horizontal (i.e, landscape mode). In the 2020s, this reverses and the dominant phone orientation when taking a picture is vertical (i.e., portrait mode).
 
-When I shared this insight back in April 2026, it was just an intuition without proof. This project finally turns that intuition into **statistical proof**. I sampled 151 random Timeguessr photos from 78 different countries and territories over a 20-year timespan, annotated 1,525 people with bounding-boxes, and can now confidently cite real data to substantiate those intuitions.
+When I shared this insight back in April 2026, it was just an intuition without proof. This project finally turns that intuition into **statistical proof**. I sampled 151 random Timeguessr photos from 78 different countries and territories over a 20-year timespan, annotated 1,718 people with bounding-boxes, and can now confidently cite real data to substantiate those intuitions.
 
 ---
 
@@ -67,14 +67,14 @@ _IMG_134 (Lhasa, Tibet, China) is the earliest dated photograph (2006) in the da
 
 ![IMG_037](annotated/IMG_037.jpeg)
 <br>
-_IMG_037 (Sanandaj, Iran) contains 41 horizontal and 8 vertical phones. This single location could drown out the other 2017 photographs if we used a raw total count alone._
+_IMG_037 (Sanandaj, Iran) contains 56 horizontal and 13 vertical phones. This single location could drown out the other 2017 photographs if we used a raw total count alone._
 
 
 ![Raw Phone Count Line Graph](readme_png_refs/Raw_Phone_Count.png)
 <br>
 _Raw phone count shows horizontal count consistently above vertical through the 2010s and the reverse during the 2020s. However, the total counts for each year are skewed by years with large crowds._
 
-To correct the effect of large crowds, I normalized each photograph by assigning each a proportional calculation (e.g., 41 horizontal and 8 vertical calculates to a score of 0.84 for horizontal and 0.16 for vertical) and then averaging photograph proportion grouped by each year and using Tableau's moving average to smooth the line graph.
+To correct the effect of large crowds, I normalized each photograph by assigning each a proportional calculation (e.g., 56 horizontal and 13 vertical calculates to a score of 0.81 for horizontal and 0.19 for vertical) and then averaging photograph proportion grouped by each year and using Tableau's moving average to smooth the line graph.
 
 ![Proportional Mean Chart](readme_png_refs/Proportional_Count.png)
 <br>
@@ -96,30 +96,30 @@ I ran a chi-square analysis to find the statistical difference between horizonta
 
 | Era | Horizontal Phones | Vertical Phones | **Row Total** |
 | :--- | :---: | :---: | :---: |
-| **Pre-2019 (2012–2019)** | 406 | 240 | **646** |
-| **Post-2019 (2020–2026)** | 151 | 456 | **607** |
-| **Column Total** | **557** | **696** | **Grand Total ($N=1253$)** |
+| **Pre-2019 (2012–2019)** | 462 | 278 | **740** |
+| **Post-2019 (2020–2026)** | 167 | 487 | **654** |
+| **Column Total** | **629** | **765** | **Grand Total ($N=1394$)** |
 
 Expected frequency formula:
 
 $$E = \frac{(\text{Row Total}) \times (\text{Column Total})}{\text{Grand Total}}$$
 
-* **Pre-2019 Horizontal Expected ($E_{11}$):** $\frac{(\text{Total Pre}) \times (\text{Total Horizontal})}{\text{Grand Total}} = 287.168$
-* **Pre-2019 Vertical Expected ($E_{12}$):** $\frac{(\text{Total Pre}) \times (\text{Total Vertical})}{\text{Grand Total}} = 358.832$
-* **Post-2019 Horizontal Expected ($E_{21}$):** $\frac{(\text{Total Post}) \times (\text{Total Horizontal})}{\text{Grand Total}} = 269.832$
-* **Post-2019 Vertical Expected ($E_{22}$):** $\frac{(\text{Total Post}) \times (\text{Total Vertical})}{\text{Grand Total}} = 337.168$
+* **Pre-2019 Horizontal Expected ($E_{11}$):** $\frac{(\text{Total Pre}) \times (\text{Total Horizontal})}{\text{Grand Total}} = 333.902$
+* **Pre-2019 Vertical Expected ($E_{12}$):** $\frac{(\text{Total Pre}) \times (\text{Total Vertical})}{\text{Grand Total}} = 406.098$
+* **Post-2019 Horizontal Expected ($E_{21}$):** $\frac{(\text{Total Post}) \times (\text{Total Horizontal})}{\text{Grand Total}} = 295.098$
+* **Post-2019 Vertical Expected ($E_{22}$):** $\frac{(\text{Total Post}) \times (\text{Total Vertical})}{\text{Grand Total}} = 358.902$
 
 $$
 \chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}
 $$
 
-* **Pre-2019 Horizontal Chi-Square Stat ($\chi^2_{11}$):** $\frac{(406-287.168)^2}{287.168} = 49.173$
-* **Pre-2019 Vertical Chi-Square Stat ($\chi^2_{12}$):** $\frac{(240-358.832)^2}{358.832} = 39.353$
-* **Post-2019 Horizontal Chi-Square Stat ($\chi^2_{21}$):** $\frac{(151-269.832)^2}{269.832} = 52.333$
-* **Post-2019 Vertical Chi-Square Stat ($\chi^2_{22}$):** $\frac{(456-337.168)^2}{337.168} = 41.881$
+* **Pre-2019 Horizontal Chi-Square Stat ($\chi^2_{11}$):** $\frac{(462-333.902)^2}{333.902} = 49.143$
+* **Pre-2019 Vertical Chi-Square Stat ($\chi^2_{12}$):** $\frac{(278-406.098)^2}{406.098} = 40.407$
+* **Post-2019 Horizontal Chi-Square Stat ($\chi^2_{21}$):** $\frac{(167-295.098)^2}{295.098} = 55.606$
+* **Post-2019 Vertical Chi-Square Stat ($\chi^2_{22}$):** $\frac{(487-358.902)^2}{358.902} = 45.720$
 
 $$
-\chi^2 = 182.74
+\chi^2 = 190.876
 $$
 
 Degrees of Freedom ($df = 1$) | $\alpha = 0.05$ | Critical Threshold = 3.841 | $p<0.0001$
@@ -129,7 +129,7 @@ Degrees of Freedom ($df = 1$) | $\alpha = 0.05$ | Critical Threshold = 3.841 | $
 
 ## Conclusions & Future Developments
 
-With a chi-square value of 182.74 and a $p$ value < 0.0001, we can conclude that the association between the year and the phone orientation is **extremely statistically significant**. This is also clearly visualized in the Tableau graphs above.
+With a chi-square value of 190.876, well above the critical threshold value, and a $p$ value < 0.0001, we can conclude that the association between the year and the phone orientation is **extremely statistically significant**. This is also clearly visualized in the Tableau graphs above.
 
 The conclusions of this report serve as Part I of a much larger data story about "How Mobile Won the Battle of the Screens." My next steps are to analyze another concurrent shift during 2012-2026: YouTube to TikTok, the structured horizontal grid to the infinite vertical scroll, the shift from desktop-first mentality to mobile-first mentality. 
 
