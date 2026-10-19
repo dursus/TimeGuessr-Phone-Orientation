@@ -131,9 +131,8 @@ It was also satisfying to develop a more statistically rigorous method of findin
 * **`phone_orientation_dataset.csv`**: Contains the cleaned 151 photograph dataset with years, locations, latitude, longitude, counts, photo description, and source.
 * **`annotate_photos.py`**: Interactive OpenCV annotation tool used to manually process image assets.
 * **`annotated/`**: High-resolution previews and bounding-box markups of all 151 photographs.
+* **`readme_png_refs/`**: Tableau results map and graphs.
 
 ---
 ## 👤 Author
 Created by **[David Boucard]** — feel free to reach out or connect on [LinkedIn]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/david-boucard-19318246/))!
-* **`readme_png_refs/`**: Tableau results map and graphs.
-
