@@ -35,6 +35,10 @@ _IMG_050 (Jakarta, Indonesia) uniquely highlights subject-independence: Despite 
 
 Custom dataset built in Google Sheets. 151 images were sourced from the 'random mode' in Timeguessr as well as past daily games archived and catalogued by TimeGuessr players on YouTube and Twitch.
 
+![TimeGuessr Photo Locations Map](readme_png_refs/TimeGuessr_Photo_Locations.png)
+<br>
+_Each dot on the map represents an image._
+
    * Built a custom **Python/OpenCV script** (`annotate_photos.py`) to manually catalog and draw color-coded bounding boxes on devices:
      * 🔵 **Blue:** Horizontal / Landscape
      * 🟠 **Coral:** Vertical / Portrait
@@ -106,15 +110,15 @@ $$
 \chi^2 = 182.74
 $$
 
-Degrees of Freedom ($df = 1$) | $\alpha = 0.05$ | Critical Threshold = 3.841 | $p<0.001$
-
-
+Degrees of Freedom ($df = 1$) | $\alpha = 0.05$ | Critical Threshold = 3.841 | $p<0.0001$
 
 
 ---
 
 ## Conclusions & Future Developments
 
+
+With a chi-square value of 182.74 and a $p$ value < 0.0001, we can conclude that the association between the year and the phone orientation is **extremely statistically significant**. This is also clearly visualized in the Tableau graphs above.
 
 
 ---
