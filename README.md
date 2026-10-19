@@ -44,7 +44,7 @@ Custom `phone_orientation_dataset.csv` built in Google Sheets. 151 images were s
 <br>
 _Each dot on the map represents an image that was catalogued and annotated in the dataset._
 
-   * Built a custom **Python/OpenCV script** (`annotate_photos.py`) to manually catalog and draw color-coded bounding boxes on devices:
+   * Built a custom **Python/OpenCV script** (`annotate_photos.py`) to manually catalog and draw color-coded bounding-boxes on devices:
      * 🔵 **Blue:** Horizontal / Landscape
      * 🟠 **Coral:** Vertical / Portrait
      * ⚪ **White:** Ambiguous / Traditional Digital Cameras
