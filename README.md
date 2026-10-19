@@ -43,15 +43,38 @@ Custom dataset built in Google Sheets. 151 images were sourced from the 'random 
      * **The device must be visible and must be a phone.** If the image was too blurry, or hands obscured the device, or I could not tell if it was a phone or digital camera, it was marked with a white bounding-box.
      * **The person must be in the act of taking a picture.** There are clear indicators someone is taking a picture: the phone is raised over the head, or there's a two-handed grip framing the phone, or the phone lens is angled towards a clear subject. If it was unclear whether a person was taking a picture or simply looking at their phone screen, it was marked with a white bounding-box.
      * **The phone must be oriented in a clear direction.** If a person's phone was angled at 45° or in the middle of orienting motion, then it was not counted and marked with a white bounding-box.
+
+
 2. **Data Cleaning:**
-  * *Pre-2012 Photographs:* Prior to 2012, the dominant picture-taking device is not a phone but a digital camera. Although I found some valid TimeGuessr photographs from 2006 to 2012, there were too few photos, often with only one person and one phone representing the entire year. This created skewed outliers for those years, so the analysis was narrowed to post-2012, the year phones surpassed digital cameras and became the dominant picture-taking device.
+  * *Pre-2012 Photographs:* Prior to 2012, the dominant picture-taking device is not a phone but a digital camera. Although I found some valid TimeGuessr photographs from 2006 to 2012, there were too few photos, often with only one person and one phone representing the entire year. This created skewed outliers for those years, so the analysis was narrowed to post-2012, the year phones started to surpass digital cameras and became the dominant picture-taking device.
+
 ![IMG_134](annotated/IMG_134.webp)
 <br>
-_IMG_134 (Lhasa, Tibet, China) is the earliest dated photograph in the dataset._   
-   * *The Electoral College Problem:* Raw averages were easily skewed by single-person photos (100% horizontal) versus massive stadium crowds.
-   * *The Solution:* Switched from arithmetic means to the **median of proportions per year** to establish a robust central tendency completely immune to outlier distortion.
+_IMG_134 (Lhasa, Tibet, China) is the earliest dated photograph in the dataset._
+
 3. **Data Analysis:**
-   * **Tableau:** Built an interactive dashboard featuring a global symbol map synced with normalized yearly trend lines and custom visual image tooltips.
+   * *The Electoral College Problem:* Each year contains a wide range of photographs. Some have one or two phones while others have 30+. How do you balance giving each country and location equal weight to truly capture the global big picture trend while also being careful not to skew the data in favor of photographs with one or two people?
+
+![IMG_037](annotated/IMG_037.jpeg)
+<br>
+_IMG_037 (Sanandaj, Iran) contains 41 horizontal and 8 vertical This single location could drown out the other 2017 photographs if we used a raw total count alone._
+
+
+![IMG_037](readme_png_refs/Raw_Phone_Count.png)
+<br>
+_Raw phone count shows that horizontal count is consistently above vertical through the 2010s and the reverse is true during the 2020s. However, the total counts for each year are skewed by large crowds._
+
+To correct the effect of large crowds, I normalized each photograph by assigning each a proportional calculation (e.g., 41 horizontal and 8 vertical calculates to a score of 0.84 for horizontal and 0.16 for vertical) and then averaging the photographs in each year.
+
+![IMG_037](readme_png_refs/Proportional_Count.png)
+<br>
+_Proportional count graph._
+
+However, this creates the classic Electoral College problem where a picture with 2 people carries as much weight as a picture with 40. Unlike the tricky problem of representational politics, this problem had a simple solution: find the central value least affected by either outlier, i.e., the median.
+
+![IMG_037](readme_png_refs/Proportional_Count.png)
+<br>
+_Proportional count graph with median instead of the mean._
 
 ---
 
