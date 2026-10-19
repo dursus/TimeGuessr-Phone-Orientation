@@ -60,37 +60,37 @@ Only 🔵 Blue and 🟠 Coral marked phones were used in the calculations, graph
 
 ![IMG_134](annotated/IMG_134.webp)
 <br>
-_IMG_134 (Lhasa, Tibet, China) is the earliest dated photograph in the dataset._
+_IMG_134 (Lhasa, Tibet, China) is the earliest dated photograph (2006) in the dataset._
 
 3. **Data Analysis:**
    * *The Electoral College Problem:* Each year contains a wide range of photographs. Some have one or two phones while others have 30+. How do you balance giving each country and location equal weight to truly capture the global big picture trend when each photograph has a different population/number of people?
 
 ![IMG_037](annotated/IMG_037.jpeg)
 <br>
-_IMG_037 (Sanandaj, Iran) contains 41 horizontal and 8 vertical This single location could drown out the other 2017 photographs if we used a raw total count alone._
+_IMG_037 (Sanandaj, Iran) contains 41 horizontal and 8 vertical phones. This single location could drown out the other 2017 photographs if we used a raw total count alone._
 
 
 ![Raw Phone Count Line Graph](readme_png_refs/Raw_Phone_Count.png)
 <br>
-_Raw phone count shows that horizontal count is consistently above vertical through the 2010s and the reverse is true during the 2020s. However, the total counts for each year are skewed by large crowds._
+_Raw phone count shows horizontal count consistently above vertical through the 2010s and the reverse during the 2020s. However, the total counts for each year are skewed by years with large crowds._
 
 To correct the effect of large crowds, I normalized each photograph by assigning each a proportional calculation (e.g., 41 horizontal and 8 vertical calculates to a score of 0.84 for horizontal and 0.16 for vertical) and then averaging photograph proportion grouped by each year and using Tableau's moving average to smooth the line graph.
 
 ![Proportional Mean Chart](readme_png_refs/Proportional_Count.png)
 <br>
-_Proportional count graph._
+_Proportional count graph with average (mean) for each year._
 
 However, this creates the classic Electoral College problem where a picture with 2 people carries as much weight as a picture with 40. Unlike the tricky problem of representational politics, this problem had a simple solution: find the central value least affected by either outlier, i.e., the median.
 
 ![Proportional Median Chart](readme_png_refs/Proportional_Count_Median.png)
 <br>
-_Proportional count graph with median instead of the mean._
+_Proportional count graph using median instead of mean._
 
 There is a clear crossover point around 2019/2020. That inflection point is significant because 2019 marks the mainstream popularity of TikTok and the widespread adoption of vertical-scrolling, mobile-first, photo and video sharing platforms. That exact year tied back to the infographic I shared with the TimeGuessr community back in April 2026.
 
 ![TimeGuessr 2000-2025 Infographic](readme_png_refs/TimeGuessr_Infographic.png)
 <br>
-_Infographic shared with TimeGuessr community April 2026. In it, I highlighted my observations about the rise of TikTok and vertical video platform and its observable effect on photo-taking habits around the world._
+_Infographic shared with TimeGuessr community April 2026. In it, I highlighted my observations about the rise of TikTok and vertical video platform in 2019 and its observable effect on photo-taking habits around the world._
 
 I ran a chi-square analysis to find the statistical difference between horizontal and vertical phones, pre/post-2019.
 
@@ -133,7 +133,7 @@ With a chi-square value of 182.74 and a $p$ value < 0.0001, we can conclude that
 
 The conclusions of this report serve as Part I of a much larger data story about "How Mobile Won the Battle of the Screens." My next steps are to analyze another concurrent shift during 2012-2026: YouTube to TikTok, the structured horizontal grid to the infinite vertical scroll, the shift from desktop-first mentality to mobile-first mentality. 
 
-It was also satisfying to develop a more statistically rigorous method of finding trends in TimeGuessr. Although, a clear downside is that marking 151 photos takes a long time to do manually. As part of a longer-term project, I'd like to learn how to automate the photo collection, annotation, counting, and statistical analysis of various other trends (e.g., Merry Widow hat of 1907-1914, post-WWI disappearance of men's mustaches, adoption rate of skinny jeans among men vs women in the 2010s). I will save this for a future date.
+It was also satisfying to develop a more statistically rigorous method of finding trends in TimeGuessr. Although, a clear downside is that marking 151 photos takes a long time to do manually. As part of a longer-term project, I'd like to learn how to automate the photo collection process, annotation, counting, and statistical analysis to expand this for various other trends (e.g., Merry Widow hat of 1907-1914, disappearance of men's facial hair post-WWI and its reappearance in the late 1960s, adoption rate of skinny jeans among men vs women in the 2010s). I will save this for a future date.
 
 
 ---
