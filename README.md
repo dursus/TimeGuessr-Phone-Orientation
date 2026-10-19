@@ -28,7 +28,7 @@ When I shared this insight back in April 2026, it was just an intuition without 
 * **Global Consistency:** This shift is culturally independent and observable in major metropolitan areas around the world: Asia, Africa, Europe, North America, South America, and Oceania.
 * **Subject-Independent:** Phone orientation is largely independent of the subject of the photograph. The most common subject of many TimeGuessr photographs in both the 2010s and 2020s is a parade, festival, or procession, yet the correlation between year and orientation persist. In certain photographs, there is a clear disconnect between the phone orientation and the subject of the photograph (i.e., horizontal filming of a vertical activity or vertical filming of a horizontal activity).
 
-![IMG_050]()
+![IMG_050](annotated/IMG_050.jpeg)
 <br>
 _IMG_050 (Jakarta, Indonesia) uniquely highlights subject-independence: Despite filming a vertical activity, the dominant phone orientation is horizontal, which strongly correlates with the year (2017) and not the subject of the photograph._
 
@@ -65,7 +65,7 @@ _IMG_134 (Lhasa, Tibet, China) is the earliest dated photograph (2006) in the da
 3. **Data Analysis:**
    * *The Electoral College Problem:* Each year contains a wide range of photographs. Some have one or two phones while others have 30+. How do you balance giving each country and location equal weight to truly capture the global big picture trend when each photograph has a different population/number of people?
 
-![IMG_037](annotated/)
+![IMG_037](annotated/IMG_037.jpeg)
 <br>
 _IMG_037 (Sanandaj, Iran) contains 56 horizontal and 13 vertical phones. This single location could drown out the other 2017 photographs if we used a raw total count alone._
 
