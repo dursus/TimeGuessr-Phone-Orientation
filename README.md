@@ -64,19 +64,19 @@ _IMG_134 (Lhasa, Tibet, China) is the earliest dated photograph in the dataset._
 _IMG_037 (Sanandaj, Iran) contains 41 horizontal and 8 vertical This single location could drown out the other 2017 photographs if we used a raw total count alone._
 
 
-![IMG_037](readme_png_refs/Raw_Phone_Count.png)
+![Raw Phone Count Line Graph](readme_png_refs/Raw_Phone_Count.png)
 <br>
 _Raw phone count shows that horizontal count is consistently above vertical through the 2010s and the reverse is true during the 2020s. However, the total counts for each year are skewed by large crowds._
 
 To correct the effect of large crowds, I normalized each photograph by assigning each a proportional calculation (e.g., 41 horizontal and 8 vertical calculates to a score of 0.84 for horizontal and 0.16 for vertical) and then averaging the photographs for each year and using Tableau's moving average to smooth the line graph.
 
-![IMG_037](readme_png_refs/Proportional_Count.png)
+![Proportional Mean Chart](readme_png_refs/Proportional_Count.png)
 <br>
 _Proportional count graph._
 
 However, this creates the classic Electoral College problem where a picture with 2 people carries as much weight as a picture with 40. Unlike the tricky problem of representational politics, this problem had a simple solution: find the central value least affected by either outlier, i.e., the median.
 
-![IMG_037](readme_png_refs/Proportional_Count_Median.png)
+![Proportional Median Chart](readme_png_refs/Proportional_Count_Median.png)
 <br>
 _Proportional count graph with median instead of the mean._
 
@@ -131,5 +131,9 @@ It was also satisfying to develop a more statistically rigorous method of findin
 * **`phone_orientation_dataset.csv`**: Contains the cleaned 151 photograph dataset with years, locations, latitude, longitude, counts, photo description, and source.
 * **`annotate_photos.py`**: Interactive OpenCV annotation tool used to manually process image assets.
 * **`annotated/`**: High-resolution previews and bounding-box markups of all 151 photographs.
+
+---
+## 👤 Author
+Created by **[David Boucard]** — feel free to reach out or connect on [LinkedIn]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/david-boucard-19318246/))!
 * **`readme_png_refs/`**: Tableau results map and graphs.
 
