@@ -1,6 +1,6 @@
 # Landscape to Portrait Orientation Shift: A TimeGuessr Analysis (2012–2026)
 
-> *Using 151 manually cataloged TimeGuessr images, Exploratory Data Analysis in Tableau, and a chi-square test to empirically prove when the world switched from filming horizontally to filming vertically.*
+> *Using 151 manually-cataloged TimeGuessr images, Exploratory Data Analysis in Tableau, and a chi-square test to empirically prove when the world switched from filming horizontally to filming vertically.*
 
 ![Timeguessr Logo](readme_png_refs/timguessrthumbnail.png)
 
@@ -14,7 +14,7 @@ This analysis focuses on one of those intuitions I shared with the TimeGuessr co
 > [!TIP]
 > In the 2010s, the dominant phone orientation when taking a picture is horizontal (i.e, landscape mode). In the 2020s, this reverses and the dominant phone orientation when taking a picture is vertical (i.e., portrait mode).
 
-When I shared this insight back in April 2026, it was just an intuition without proof. This project finally turns that observation into a **statistically-validated data story**. By sampling 151 random Timeguessr photos from 78 different countries and territories over a 20-year timespan, then bounding-box annotating 1,525 people, I can now cite real data to back up my intuitions.
+When I shared this insight back in April 2026, it was just an intuition without proof. This project finally turns that intuition into **statistical proof**. By sampling 151 random Timeguessr photos from 78 different countries and territories over a 20-year timespan, then bounding-box annotating 1,525 people, I can now cite real data to back up my intuitions.
 
 ---
 
