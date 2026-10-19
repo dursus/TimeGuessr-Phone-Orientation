@@ -88,9 +88,9 @@ _Proportional count graph with median instead of the mean._
 
 There is a clear crossover point around 2019/2020. That inflection point is significant because 2019 marks the mainstream popularity of TikTok and the widespread adoption of vertical mobile-first photo and video sharing platforms. This year tied back to the TimeGuessr infographic I shared back in April 2026.
 
-![TimeGuessr 2000-2025 Infographic](readme_png_refs/Proportional_Count_Median.png)
+![TimeGuessr 2000-2025 Infographic](readme_png_refs/TimeGuessr_Infographic.png)
 <br>
-_Proportional count graph with median instead of the mean._
+_Infographic shared with TimeGuessr community April 2026. In it, I highlighted my observations about the rise of TikTok and vertical video platform and its observable effect on photo-taking habits around the world._
 
 I ran a chi-square analysis to find the statistical difference between horizontal and vertical phones, pre/post-2019.
 
