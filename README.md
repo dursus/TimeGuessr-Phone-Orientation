@@ -9,12 +9,12 @@ TimeGuessr is an online game where you look at historical photographs and try to
 
 I'm a huge fan of the game. Over the course of 3+ years of daily play, I built intuitions about countless trends and patterns in culture, fashion, technology and how those artifacts show up in everyday photographs.
 
-This analysis focuses on one of those intuitions:
+This analysis focuses on one of those intuitions I shared with the TimeGuessr community as a tip:
 
 > [!TIP]
 > In the 2010s, the dominant phone orientation when taking a picture is horizontal. In the 2020s, this reverses and the dominant phone orientation is vertical.
 
-When I shared this insight with the TimeGuessr community back in April 2026, it was just an intuition without proof. This project finally turns that observation into a **statistically-validated data story**. By sampling 151 random Timeguessr photos from 78 different countries and territories over a 20-year timespan, then bounding-box annotating 1,525 people, I can now cite real data to back up my intuitions.
+When I shared this insight back in April 2026, it was just an intuition without proof. This project finally turns that observation into a **statistically-validated data story**. By sampling 151 random Timeguessr photos from 78 different countries and territories over a 20-year timespan, then bounding-box annotating 1,525 people, I can now cite real data to back up my intuitions.
 
 ---
 
