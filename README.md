@@ -88,14 +88,20 @@ Expected frequency formula:
 
 $$E = \frac{(\text{Row Total}) \times (\text{Column Total})}{\text{Grand Total}}$$
 
-* **Pre-2019 Horizontal Expected ($E_{11}$):** $\frac{(\text{Total Pre}) \times (\text{Total Horizontal})}{\text{Grand Total}} = 485$
-* **Pre-2019 Vertical Expected ($E_{12}$):** $\frac{(\text{Total Pre}) \times (\text{Total Vertical})}{\text{Grand Total}}$
-* **Post-2019 Horizontal Expected ($E_{21}$):** $\frac{(\text{Total Post}) \times (\text{Total Horizontal})}{\text{Grand Total}}$
-* **Post-2019 Vertical Expected ($E_{22}$):** $\frac{(\text{Total Post}) \times (\text{Total Vertical})}{\text{Grand Total}}$
+* **Pre-2019 Horizontal Expected ($E_{11}$):** $\frac{(\text{Total Pre}) \times (\text{Total Horizontal})}{\text{Grand Total}} = 287.168$
+* **Pre-2019 Vertical Expected ($E_{12}$):** $\frac{(\text{Total Pre}) \times (\text{Total Vertical})}{\text{Grand Total}} = 358.832$
+* **Post-2019 Horizontal Expected ($E_{21}$):** $\frac{(\text{Total Post}) \times (\text{Total Horizontal})}{\text{Grand Total}} = 269.832$
+* **Post-2019 Vertical Expected ($E_{22}$):** $\frac{(\text{Total Post}) \times (\text{Total Vertical})}{\text{Grand Total}} = 337.168$
 
 $$
 \chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}
 $$
+
+* **Pre-2019 Horizontal Chi-Square Stat ($chi^2_{11}$):** $\frac{(O-E)^2}{E} = 287.168$
+* **Pre-2019 Vertical Expected ($E_{12}$):** $\frac{(\text{Total Pre}) \times (\text{Total Vertical})}{\text{Grand Total}} = 358.832$
+* **Post-2019 Horizontal Expected ($E_{21}$):** $\frac{(\text{Total Post}) \times (\text{Total Horizontal})}{\text{Grand Total}} = 269.832$
+* **Post-2019 Vertical Expected ($E_{22}$):** $\frac{(\text{Total Post}) \times (\text{Total Vertical})}{\text{Grand Total}} = 337.168$
+
 
 
 
