@@ -38,7 +38,7 @@ _IMG_050 (Jakarta, Indonesia) uniquely highlights subject-independence: Despite 
 
 1. **Data Collection:**
 
-Custom dataset built in Google Sheets. 151 images were sourced using the 'random mode' in Timeguessr (which pulls from the entire TimeGuessr daily archive containing 6,000 photographs) as sourcing from all daily game rounds in 2026 (archived and catalogued by daily TimeGuessr players on YouTube and Twitch).
+Custom `phone_orientation_dataset.csv` built in Google Sheets. 151 images were sourced using the 'random mode' in Timeguessr (which pulls from the entire TimeGuessr daily archive containing 6,000 photographs) as sourcing from all daily game rounds in 2026 (archived and catalogued by daily TimeGuessr players on YouTube and Twitch).
 
 ![TimeGuessr Photo Locations Map](readme_png_refs/TimeGuessr_Photo_Locations.png)
 <br>
