@@ -19,12 +19,12 @@ This analysis focuses on one of those intuitions I shared with the TimeGuessr co
 > [!TIP]
 > In the 2010s, the dominant phone orientation when taking a picture is horizontal (i.e, landscape mode). In the 2020s, this reverses and the dominant phone orientation when taking a picture is vertical (i.e., portrait mode).
 
-When I shared this insight back in April 2026, it was just an intuition without proof. This project finally turns that intuition into **statistical proof**. I sampled 151 random Timeguessr photos from 78 different countries and territories over a 20-year timespan, annotated 1,718 people with bounding-boxes, and can now confidently cite real data to substantiate those intuitions.
+When I shared this insight back in April 2026, it was just an intuition without proof. This project finally turns that intuition into statistical proof. I sampled 151 random Timeguessr photos from 78 different countries and territories over a 20-year timespan, annotated 1,718 people with bounding-boxes, and can now confidently cite real data to substantiate those intuitions.
 
 ---
 
 ## Key Findings & Insights
-* **The 2019/2020 Crossover:** The graph of the raw count and the proportional count show a clear crossover point around **2019–2020**, where vertical phone orientation officially overtook horizontal orientation.
+* **The 2019/2020 Crossover:** The graph of the raw count and the proportional count show a clear crossover point around 2019–2020, where vertical phone orientation officially overtook horizontal orientation.
 * **Global Consistency:** This shift is culturally independent and observable in major metropolitan areas around the world: Asia, Africa, Europe, North America, South America, and Oceania.
 * **Subject-Independent:** Phone orientation is largely independent of the subject of the photograph. The most common subject of many TimeGuessr photographs in both the 2010s and 2020s is a parade, festival, or procession, yet the correlation between year and orientation persist. In certain photographs, there is a clear disconnect between the phone orientation and the subject of the photograph (i.e., horizontal filming of a vertical activity or vertical filming of a horizontal activity).
 
