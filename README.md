@@ -154,7 +154,7 @@ Degrees of Freedom ($df = 1$) | $\alpha = 0.05$ | Critical Threshold = 3.841 | $
 
 With a chi-square value well above the critical threshold value, and a $p$ value < 0.0001, we can conclude that the association between the year and the phone orientation is **extremely statistically significant**. This is also clearly visualized in the Tableau graphs above.
 
-The conclusions in this report serve as the rigorous statistical foundation for a much larger data story, titled: "How Mobile Won the Battle of the Screens." My next steps are to analyze another concurrent shift that happened around 2019: YouTube to TikTok, the structured horizontal grid to the infinite vertical scroll, the shift from a desktop-first mentality to mobile-first mentality.
+This report's conclusions serve as the statistical foundation and first step for a much larger data story, titled: "How Mobile Won the Battle of the Screens." My next steps are to analyze another concurrent shift that happened around 2019: YouTube to TikTok, the structured horizontal grid to the infinite vertical scroll, the shift from a desktop-first mentality to a mobile-first mentality.
 
 ![Desktop-First Mentality Tweet](readme_png_refs/tweet.png)
 
