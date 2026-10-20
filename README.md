@@ -156,6 +156,8 @@ With a chi-square value well above the critical threshold value, and a $p$ value
 
 The conclusions in this report serve as the rigorous statistical foundation for a much larger data story, titled: "How Mobile Won the Battle of the Screens." My next steps are to analyze another concurrent shift that happened around 2019: YouTube to TikTok, the structured horizontal grid to the infinite vertical scroll, the shift from a desktop-first mentality to mobile-first mentality.
 
+![Desktop-First Mentality Tweet](readme_png_refs/tweet.png)
+
 It was also satisfying to develop a more statistically rigorous method of finding trends in TimeGuessr. Although, a clear downside is that marking 151 photos takes a long time to do manually. As part of a longer-term project, I'd like to learn how to automate the photo collection process, annotation, counting, and statistical analysis to expand this for various other trends (e.g., Merry Widow hat of 1907-1914, disappearance of men's facial hair post-WWI and its reappearance in the late 1960s, adoption rate of skinny jeans among men vs women in the 2010s). I will save this for a future date.
 
 
