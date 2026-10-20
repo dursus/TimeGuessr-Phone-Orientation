@@ -72,9 +72,9 @@ _IMG_037 (Sanandaj, Iran) contains 56 horizontal and 13 vertical phones. This si
 
 ![Raw Phone Count Line Graph](readme_png_refs/Raw_Phone_Count.png)
 <br>
-_Raw phone count shows horizontal count consistently above vertical through the 2010s and the reverse during the 2020s. However, the total counts for each year are skewed by years with large crowds._
+_Raw phone count displays the relative relationship between horizontal and vertical: horizontal consistently stays above vertical through the 2010s and the reverse occurs during the 2020s. However, the total raw count spike for 2014, 2017, 2024 indicate years with large crowd photographs._
 
-To correct the effect of large crowds, I normalized each photograph by assigning each a proportional calculation (e.g., 56 horizontal and 13 vertical calculates to a score of 0.81 for horizontal and 0.19 for vertical) and then averaging photograph proportion grouped by each year and using Tableau's moving average to smooth the line graph.
+To correct the skew effect of large crowds, I normalized each photograph to a unit value: assigning each photograph horizontal and vertical proportional calculations (e.g., 56 horizontal and 13 vertical calculates to a unit value of 0.81 for horizontal and 0.19 for vertical) and then averaging those values, grouped by each year, and using Tableau's moving average to smooth the line graph.
 
 ![Proportional Mean Chart](readme_png_refs/Proportional_Count.png)
 <br>
