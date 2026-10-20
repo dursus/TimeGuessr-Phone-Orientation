@@ -126,7 +126,9 @@ We can also run the above chi-square test for a 2018 split and one for a 2020 sp
 
 $$
 \chi^2_{2018} = 159.608     
+$$
 
+$$
 \chi^2_{2020} = 147.668
 $$
 
