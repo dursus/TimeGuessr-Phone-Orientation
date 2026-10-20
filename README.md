@@ -36,7 +36,7 @@ _IMG_050 (Jakarta, Indonesia) uniquely highlights subject-independence: Despite 
 
 ## Methodology
 
-##1. **Data Collection:**
+## 1. **Data Collection:**
 
 Custom `phone_orientation_dataset.csv` built in Google Sheets. 151 images were sourced using the 'random mode' in Timeguessr (which pulls from the entire TimeGuessr daily archive containing 6,000 photographs) as well as sourced from all daily game rounds in 2026 (archived and catalogued by daily TimeGuessr players on YouTube and Twitch).
 
@@ -55,14 +55,14 @@ _Each dot on the map represents an image that was catalogued and annotated in th
 
 Only 🔵 Blue and 🟠 Coral marked phones were used in the calculations, graphs, and statistical analysis. 
 
-##2. **Data Cleaning:**
+## 2. **Data Cleaning:**
   * *Pre-2012 Photographs:* Prior to 2012, the dominant picture-taking device is not a phone but a digital camera. Although I found some valid TimeGuessr photographs from 2006 to 2012, there were too few photos, often with only one person and one phone representing the entire year. This created skewed outliers for those years, so the analysis was narrowed to post-2012, the year phones started to surpass digital cameras and became the dominant picture-taking device.
 
 ![IMG_134](annotated/IMG_134.webp)
 <br>
 _IMG_134 (Lhasa, Tibet, China) is the earliest dated photograph (2006) in the dataset._
 
-##3. **Data Analysis (The Electoral College Problem):**
+## 3. **Data Analysis (The Electoral College Problem):**
    * Each year contains a wide range of photographs. Some have one or two phones while others have 30+. How do you balance giving each country and location equal weight to truly capture the global big picture trend when each photograph has a different population/number of people?
 
 ![IMG_037](annotated/IMG_037.jpeg)
