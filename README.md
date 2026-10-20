@@ -122,14 +122,33 @@ $$
 \chi^2 = 190.876
 $$
 
-Degrees of Freedom ($df = 1$) | $\alpha = 0.05$ | Critical Threshold = 3.841 | $p<0.0001$
+We can also run the above chi-square test for a 2018 split and one for a 2020 split:
 
+$$
+\chi^2_{2018} = 159.608     \chi^2_{2020} = 147.668
+$$
+
+The chi-square value is the largest for the 2019 split.
+
+If we classify each photo by a simple majority (i.e., remove the effect of large crowds), the chi-square is:
+
+| Era | Horizontal Majority Photo | Vertical Majority Photo | **Row Total** |
+| :--- | :---: | :---: | :---: |
+| **Pre-2019 (2012–2019)** | 48 | 22 | **70** |
+| **Post-2019 (2020–2026)** | 7 | 44 | **51** |
+| **Column Total** | **55** | **66** | **Grand Total ($N=121$)** |
+
+$$
+\chi^2 = 35.796
+$$
+
+Degrees of Freedom ($df = 1$) | $\alpha = 0.05$ | Critical Threshold = 3.841 | $p<0.0001$
 
 ---
 
 ## Conclusions & Future Developments
 
-With a chi-square value of 190.876, well above the critical threshold value, and a $p$ value < 0.0001, we can conclude that the association between the year and the phone orientation is **extremely statistically significant**. This is also clearly visualized in the Tableau graphs above.
+With a chi-square value well above the critical threshold value, and a $p$ value < 0.0001, we can conclude that the association between the year and the phone orientation is **extremely statistically significant**. This is also clearly visualized in the Tableau graphs above.
 
 The conclusions of this report serve as Part I of a much larger data story about "How Mobile Won the Battle of the Screens." My next steps are to analyze another concurrent shift during 2012-2026: YouTube to TikTok, the structured horizontal grid to the infinite vertical scroll, the shift from desktop-first mentality to mobile-first mentality. 
 
