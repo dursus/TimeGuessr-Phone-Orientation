@@ -125,7 +125,9 @@ $$
 We can also run the above chi-square test for a 2018 split and one for a 2020 split:
 
 $$
-\chi^2_{2018} = 159.608     \chi^2_{2020} = 147.668
+\chi^2_{2018} = 159.608     
+
+\chi^2_{2020} = 147.668
 $$
 
 The chi-square value is the largest for the 2019 split.
