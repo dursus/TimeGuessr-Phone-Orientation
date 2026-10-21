@@ -86,7 +86,7 @@ However, this creates the classic Electoral College problem where a picture with
 <br>
 _Proportional count graph using median instead of mean._
 
-There is a clear crossover point around 2019/2020. That inflection point is significant because 2019 marks the mainstream popularity of TikTok and the widespread adoption of vertical-scrolling, mobile-first, photo and video sharing platforms. That exact year tied back to the infographic I shared with the TimeGuessr community back in April 2026.
+There is a clear crossover point around 2019/2020. That inflection point is significant because 2019 marks the year TikTok reached 1 billion global downloads and the widespread adoption of vertical-scrolling, mobile-first, photo and video sharing platforms. That exact year tied back to the infographic I shared with the TimeGuessr community back in April 2026.
 
 ![TimeGuessr 2000-2025 Infographic](readme_png_refs/TimeGuessr_Infographic.png)
 <br>
